@@ -49,7 +49,6 @@ export class DataTableComponent {
         }
       }
       this.data = [...this.data, ...object.newGarages];
-      console.log(this.data);
       if (this.data && this.data.length) {
         this.displayedColumns = Object.keys(this.data[0]);
       }
