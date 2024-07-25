@@ -1,0 +1,10 @@
+<mat-card dir="rtl">
+  <div dir="rtl" class="title">נתונים המובאים מ-api ממשלתי</div>
+  <mat-form-field dir="rtl">
+    <mat-select dir="rtl" placeholder="בחירת מוסכים ממשלתיים" [formControl]="garageValues" [(value)]="selectedToppings" multiple>
+      <mat-option *ngFor="let garage of garages" [value]="garage._id">{{garage.shem_mosah}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button [disabled]="!garageValues.value" (click)="addDBGarages()" mat-button>הוספה למאגר</button>
+</mat-card>
+  

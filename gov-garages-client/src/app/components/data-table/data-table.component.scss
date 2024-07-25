@@ -1,0 +1,37 @@
+:host {
+  .card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .no-data {
+    color: #777;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}

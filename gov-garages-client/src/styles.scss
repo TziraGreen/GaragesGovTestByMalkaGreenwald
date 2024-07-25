@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.toast-success,
+.toast-info,
+.toast-warning {
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(149, 231, 26) !important;
+}
+.toast-error {
+  text-align: center;
+  background-color: rgb(198, 53, 53);
+  font-size: 20px;
+}

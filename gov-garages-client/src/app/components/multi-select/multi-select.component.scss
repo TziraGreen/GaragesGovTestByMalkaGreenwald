@@ -1,0 +1,40 @@
+:host {
+  mat-card {
+    height: 400px;
+    background-color: #e4e2e2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    // width: 80%;
+    margin: 40px;
+  }
+  mat-select {
+    width: 100%;
+  }
+  button {
+    position: absolute;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    bottom: 20px;
+  }
+  button:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-top: "none";
+  }
+}
