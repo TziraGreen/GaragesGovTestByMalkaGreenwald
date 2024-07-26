@@ -3,13 +3,9 @@
 This project consists of a Node.js server, an Angular client, and MongoDB.
 The Node.js server fetches garages data from a government API, retrieves garages data from the MongoDB database, and saves selected garages to the database.
 
-Visually it looks like this:
-
-
 Getting Started
-To install this application, run the following commands:
+To install this application, run the following command:
 git clone "https://github.com/TziraGreen/GaragesGovTestByMalkaGreenwald"
-
 
 Then open the gov-garages-client and gov-garages-backend folders separately on VSCODE.
 ## Node.ts Server - gov-garages-backend (Backend)
