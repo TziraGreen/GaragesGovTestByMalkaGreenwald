@@ -11,10 +11,10 @@ The user selects in the multi-select component the names of the garages whose da
 (as soon as the user clicks on the add button, the table is updated with the new garages that were selected and added to the database).
 
 ### Visually it looks like this:
-#### Before adding data to the Mongo database:
+#### Before adding data to MongoDB:
 ![image](https://github.com/user-attachments/assets/3b275fca-843a-4e1e-ab2f-fec8020ebc4f)
 
-#### After adding data to the Mongo database:
+#### After adding data to MongoDB:
 ![image](https://github.com/user-attachments/assets/8b2b2772-bb12-400f-ac35-16d538f52d90)
 
 ### How do you run and install the project? lets start:
