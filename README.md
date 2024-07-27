@@ -55,7 +55,7 @@ npm i
 then: 
 
 ```
-npm start
+ng serve
 ```
 
 #### the client side run on http://localhost:4200
